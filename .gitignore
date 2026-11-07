@@ -1,0 +1,50 @@
+# Kaggle competition datasets
+train.csv
+test.csv
+sample_submission.csv
+*.csv.zip
+*.csv.gz
+
+# Local prediction and submission files
+submissions/
+*.sub.csv
+
+# Model checkpoints and serialized artifacts
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.bin
+*.pt
+*.pth
+*.onnx
+models/
+checkpoints/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Local credentials and environment variables
+.env
+.env.*
+secrets.json
+
+# Logs and scratch files
+*.log
+scratch/
+tmp/
